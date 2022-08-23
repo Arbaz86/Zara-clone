@@ -1,19 +1,723 @@
 {
-  "posts": [
+  "menClothes": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "McId": 1,
+      "McTitle": "SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5851/281/818/2/w/294/5851281818_1_1_1.jpg?ts=1660138539990"
+    },
+    {
+      "McId": 2,
+      "McTitle": "BIRD’S-EYE SUIT TROUSERS",
+      "McPrice": "₹ 4,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5646/078/401/2/w/294/5646078401_1_1_1.jpg?ts=1659608134834"
+    },
+    {
+      "McId": 3,
+      "McTitle": "TEXTURED SHIRT",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 4,
+      "McTitle": "TEXTURED SHIRT",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5681/270/250/2/w/294/5681270250_1_1_1.jpg?ts=1660736528694"
+    },
+    {
+      "McId": 5,
+      "McTitle": "TEXTURED SUIT TROUSERS",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 6,
+      "McTitle": "TEXTURED SUIT TROUSERS",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 7,
+      "McTitle": "BIRD’S-EYE SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5645/078/401/2/w/294/5645078401_1_1_1.jpg?ts=1659608134076"
+    },
+    {
+      "McId": 8,
+      "McTitle": "TEXTURED SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+
+    {
+      "McId": 9,
+      "McTitle": "FLOWING SATIN SHIRT",
+      "McPrice": "FITTED SHIRT WITH GOLDEN BUTT",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 10,
+      "McTitle": "COMFORT FIT BLAZER",
+      "McPrice": "₹ 4,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0706/635/710/2/w/294/0706635710_1_1_1.jpg?ts=1660674420228"
+    },
+    {
+      "McId": 11,
+      "McTitle": "TEXTURED SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6861/350/420/2/w/294/6861350420_1_1_1.jpg?ts=1660674419384"
+    },
+    {
+      "McId": 12,
+      "McTitle": "SATIN SHIRT WITH PATCH POCKE",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/1/p/5528/885/431/2/w/294/5528885431_1_1_1.jpg?ts=1657720026948"
+    },
+    {
+      "McId": 13,
+      "McTitle": "CROCHET SHIRT",
+      "McPrice": "₹ 3,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/1608/787/800/2/w/294/1608787800_1_1_1.jpg?ts=1654182683351"
+    },
+    {
+      "McId": 14,
+      "McTitle": "PLEATED SUIT TROUSERS",
+      "McPrice": "₹ 4,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5914/736/430/2/w/294/5914736430_1_1_1.jpg?ts=1660233507045"
+    },
+    {
+      "McId": 15,
+      "McTitle": "SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5913/736/430/2/w/294/5913736430_1_1_1.jpg?ts=1660233585903"
+    },
+    {
+      "McId": 16,
+      "McTitle": "EASY CARE TEXTURED SHIRT",
+      "McPrice": "₹ 1,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/V/0/1/p/7545/452/250/2/w/294/7545452250_1_1_1.jpg?ts=1645438201602"
+    },
+    {
+      "McId": 17,
+      "McTitle": "LEAF PRINT SHIRT",
+      "McPrice": "₹ 3,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5692/446/605/2/w/294/5692446605_1_1_1.jpg?ts=1659446905592"
+    },
+    {
+      "McId": 18,
+      "McTitle": "DINNER JACKET",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 19,
+      "McTitle": "BELTED CARGO JEANS",
+      "McPrice": "₹ 9,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 20,
+      "McTitle": "SUIT BLAZER",
+      "McPrice": "₹ 3,990.00",
+      "McCategory": "dress",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 21,
+      "McTitle": "TANK TOP",
+      "McPrice": "₹ 1,590.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6462/410/630/2/w/294/6462410630_1_1_1.jpg?ts=1653572666008"
+    },
+    {
+      "McId": 22,
+      "McTitle": "EMBROIDERED TOP",
+      "McPrice": "₹ 1,990.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0495/419/615/2/w/294/0495419615_1_1_1.jpg?ts=1659024108940"
+    },
+    {
+      "McId": 23,
+      "McTitle": "PERFORATED TECHNICAL TOP",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 24,
+      "McTitle": "TEXTURED TANK TOP",
+      "McPrice": "₹ 1,990.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0722/346/424/2/w/294/0722346424_1_1_1.jpg?ts=1658412665548"
+    },
+    {
+      "McId": 25,
+      "McTitle": "FLOWING TOP",
+      "McPrice": "₹ 2,590.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 26,
+      "McTitle": "PERFORATED TECHNICAL TOP",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/4335/400/520/2/w/294/4335400520_1_1_1.jpg?ts=1658232022524"
+    },
+    {
+      "McId": 27,
+      "McTitle": "CREASED-EFFECT TOP",
+      "McPrice": "₹ 2,890.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0761/371/251/2/w/294/0761371251_1_1_1.jpg?ts=1657874024891"
+    },
+    {
+      "McId": 28,
+      "McTitle": "TANK TOP",
+      "McPrice": "₹ 1,590.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6462/410/800/2/w/294/6462410800_1_1_1.jpg?ts=1653575855170"
+    },
+    {
+      "McId": 29,
+      "McTitle": "TRAINING TANK TOP",
+      "McPrice": "₹ 1,990.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6096/300/250/2/w/294/6096300250_1_1_1.jpg?ts=1657186233636"
+    },
+    {
+      "McId": 30,
+      "McTitle": "TRAINING TANK TOP",
+      "McPrice": "₹ 2,590.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0679/320/800/2/w/294/0679320800_1_1_1.jpg?ts=1657096818484"
+    },
+    {
+      "McId": 31,
+      "McTitle": "RIBBED TANK TOP",
+      "McPrice": "₹ 1,790.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0679/320/506/2/w/294/0679320506_1_1_1.jpg?ts=1657096822332"
+    },
+    {
+      "McId": 32,
+      "McTitle": "TANK TOP",
+      "McPrice": "₹ 1,590.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 33,
+      "McTitle": "TANK TOP",
+      "McPrice": "₹ 1,990.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/V/0/2/p/9240/422/898/2/w/294/9240422898_1_1_1.jpg?ts=1646932588499"
+    },
+    {
+      "McId": 34,
+      "McTitle": "ASYMMETRIC CROP TOP",
+      "McPrice": "₹ 1,890.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 35,
+      "McTitle": "TEXTURED SUIT TROUSERS",
+      "McPrice": "₹ 4,990.00",
+      "McCategory": "top",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/1564/371/707/2/w/294/1564371707_1_1_1.jpg?ts=1660747781905"
+    },
+    {
+      "McId": 36,
+      "McTitle": "RIPPED SKINNY JEANS",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6688/410/250/2/w/294/6688410250_1_1_1.jpg?ts=1657721618605"
+    },
+    {
+      "McId": 37,
+      "McTitle": "STRAIGHT FIT JEANS",
+      "McPrice": "₹ 5,990.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/8727/410/427/2/w/294/8727410427_1_1_1.jpg?ts=1657721598711"
+    },
+    {
+      "McId": 38,
+      "McTitle": "RIPPED SKINNY JEANS",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///2022/I/0/1/p/6045/410/800/3/w/294/6045410800_1_1_1.jpg?ts=1657614254190"
+    },
+    {
+      "McId": 39,
+      "McTitle": "COLOURED DENIM SHIRT",
+      "McPrice": "₹ 2,590.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013"
+    },
+    {
+      "McId": 40,
+      "McTitle": "GRAFFITI PRINT DENIM JACKET",
+      "McPrice": "₹ 6,590.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/1466/301/400/2/w/294/1466301400_1_1_1.jpg?ts=1656663348284"
+    },
+    {
+      "McId": 41,
+      "McTitle": "DENIM OVERSHIRT",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "jeans",
+      "McImage": "https://static.zara.net/photos///2022/I/0/1/p/6917/338/427/2/w/294/6917338427_1_1_1.jpg?ts=1657528259757"
+    },
+    {
+      "McId": 42,
+      "McTitle": "SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5851/281/818/2/w/294/5851281818_1_1_1.jpg?ts=1660138539990"
+    },
+    {
+      "McId": 43,
+      "McTitle": "BIRD’S-EYE SUIT BLAZER",
+      "McPrice": "₹ 8,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5645/078/401/2/w/294/5645078401_1_1_1.jpg?ts=1659608134076"
+    },
+    {
+      "McId": 44,
+      "McTitle": "TEXTURED SUIT BLAZER",
+      "McPrice": "₹ 6,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/V/0/2/p/5972/530/743/102/w/294/5972530743_1_1_1.jpg?ts=1649864555540"
+    },
+    {
+      "McId": 45,
+      "McTitle": "SLIM FIT SUIT BLAZER",
+      "McPrice": "₹ 5,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/1/p/5951/720/401/103/w/294/5951720401_1_1_1.jpg?ts=1657720476432"
+    },
+    {
+      "McId": 46,
+      "McTitle": "EMBELLISHED VINYL",
+      "McPrice": "₹ 5,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/5758/494/500/2/w/294/5758494500_2_1_1.jpg?ts=1657712238169"
+    },
+    {
+      "McId": 47,
+      "McTitle": "SLINGBACK SHOES",
+      "McPrice": "₹ 2,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/6861/384/420/2/w/294/6861384420_1_1_1.jpg?ts=1660209716006"
+    },
+    {
+      "McId": 48,
+      "McTitle": "LINEN CHECK SUIT BLAZER",
+      "McPrice": "₹ 9,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0029/401/401/2/w/294/0029401401_1_1_1.jpg?ts=1657721386896"
+    },
+    {
+      "McId": 49,
+      "McTitle": "SUIT BLAZER",
+      "McPrice": "₹ 5,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/1/p/9621/802/715/2/w/294/9621802715_1_1_1.jpg?ts=1660664563224"
+    },
+    {
+      "McId": 50,
+      "McTitle": "LINEN BLEND BLAZER",
+      "McPrice": "₹ 5,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/0706/356/403/2/w/294/0706356403_1_1_1.jpg?ts=1656573714138"
+    },
+    {
+      "McId": 51,
+      "McTitle": "BLAZER WITH CREASED EFFECT",
+      "McPrice": "₹ 4,990.00",
+      "McCategory": "blazer",
+      "McImage": "https://static.zara.net/photos///2022/I/0/2/p/7505/303/401/2/w/294/7505303401_1_1_1.jpg?ts=1659601143021"
     }
   ],
-  "comments": [
+
+  "womenClothes": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "WcId": 1,
+      "WcTitle": "SATIN OVERSIZE SHIRT",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7885/138/390/2/w/294/7885138390_1_1_1.jpg?ts=1661181017705"
+    },
+    {
+      "WcId": 2,
+      "WcTitle": "SATIN SHIRT",
+      "WcPrice": "₹ 1,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/V/0/1/p/7969/046/251/2/w/294/7969046251_1_1_1.jpg?ts=1644423513750"
+    },
+    {
+      "WcId": 3,
+      "WcTitle": "FLOWING PRINTED SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7516/287/330/2/w/294/7516287330_1_1_1.jpg?ts=1660667780876"
+    },
+    {
+      "WcId": 4,
+      "WcTitle": "PRINTED FITTED SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8741/256/250/2/w/294/8741256250_1_1_1.jpg?ts=1661160265195"
+    },
+    {
+      "WcId": 5,
+      "WcTitle": "FLOWING SATIN SHIRT",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2718/853/070/12/w/294/2718853070_1_1_1.jpg?ts=1656487997776"
+    },
+    {
+      "WcId": 6,
+      "WcTitle": "FLORAL PRINT SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8614/845/800/2/w/294/8614845800_1_1_1.jpg?ts=1660727356725"
+    },
+    {
+      "WcId": 7,
+      "WcTitle": "BUTTONED SATIN SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2183/251/064/2/w/294/2183251064_1_1_1.jpg?ts=1655286479445"
+    },
+    {
+      "WcId": 8,
+      "WcTitle": "PRINTED SHIRT WITH POCKET",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8741/256/656/2/w/294/8741256656_1_1_1.jpg?ts=1660053588375"
+    },
+
+    {
+      "WcId": 9,
+      "WcTitle": "FLOWING SATIN SHIRT",
+      "WcPrice": "FITTED SHIRT WITH GOLDEN BUTT",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2535/308/042/12/w/294/2535308042_1_1_1.jpg?ts=1661165711059"
+    },
+    {
+      "WcId": 10,
+      "WcTitle": "SATIN SHIRT",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7484/171/712/2/w/294/7484171712_1_1_1.jpg?ts=1660914769554"
+    },
+    {
+      "WcId": 11,
+      "WcTitle": "OVERSIZED SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8365/771/406/2/w/294/8365771406_1_1_1.jpg?ts=1660218583644"
+    },
+    {
+      "WcId": 12,
+      "WcTitle": "SATIN SHIRT WITH PATCH POCKE",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2157/240/800/2/w/294/2157240800_1_1_1.jpg?ts=1658315564393"
+    },
+    {
+      "WcId": 13,
+      "WcTitle": "BUTTONED SATIN SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8752/777/407/2/w/294/8752777407_1_1_1.jpg?ts=1660727368325"
+    },
+    {
+      "WcId": 14,
+      "WcTitle": "BUTTONED SATIN SHIRT",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/1971/176/629/2/w/294/1971176629_1_1_1.jpg?ts=1660900615181"
+    },
+    {
+      "WcId": 15,
+      "WcTitle": "SATIN SHIRT",
+      "WcPrice": "₹ 1,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7969/046/630/2/w/294/7969046630_1_1_1.jpg?ts=1654186186011"
+    },
+    {
+      "WcId": 16,
+      "WcTitle": "WIDE-LEG JEANS",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6688/023/406/13/w/294/6688023406_1_1_1.jpg?ts=1657708942067"
+    },
+    {
+      "WcId": 17,
+      "WcTitle": "Z1975 HIGH-RISE STRAIGHT JEAN",
+      "WcPrice": "₹ 3,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8527/161/250/2/w/294/8527161250_1_1_1.jpg?ts=1660811836016"
+    },
+    {
+      "WcId": 18,
+      "WcTitle": "COMFORT FIT MOM JEANS",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/257/406/2/w/294/8197257406_1_1_1.jpg?ts=1657874800771"
+    },
+    {
+      "WcId": 19,
+      "WcTitle": "BELTED CARGO JEANS",
+      "WcPrice": "₹ 3,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6688/208/400/12/w/294/6688208400_1_1_1.jpg?ts=1661158568332"
+    },
+    {
+      "WcId": 20,
+      "WcTitle": "CUT-OUT DENIM JUMPSUIT",
+      "WcPrice": "₹ 3,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/3175/200/400/2/w/294/3175200400_1_1_1.jpg?ts=1660744984278"
+    },
+    {
+      "WcId": 21,
+      "WcTitle": "HIGH RISE SCULPT JEANS",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/251/800/2/w/294/8197251800_1_1_1.jpg?ts=1660907479917"
+    },
+    {
+      "WcId": 22,
+      "WcTitle": "₹ 2,990.00",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6045/065/427/2/w/294/6045065427_1_1_1.jpg?ts=1660744997357"
+    },
+    {
+      "WcId": 23,
+      "WcTitle": "CARGO JEANS WITH SPLIT HEMS",
+      "WcPrice": "₹ 3,990.00",
+      "WcCategory": "jeans",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/1971/180/250/2/w/294/1971180250_1_1_1.jpg?ts=1660900604420"
+    },
+    {
+      "WcId": 24,
+      "WcTitle": "Z1975 MID-RISE STRAIGHT LONG-",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/5862/178/427/2/w/294/5862178427_1_1_1.jpg?ts=1660667786335"
+    },
+    {
+      "WcId": 25,
+      "WcTitle": "ZW THE HIGH RISE CROPPED FLA",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6840/261/800/2/w/210/6840261800_1_1_1.jpg?ts=1660724945621"
+    },
+    {
+      "WcId": 26,
+      "WcTitle": "HIGH RISE SCULPT JEANS",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8741/259/250/2/w/294/8741259250_1_1_1.jpg?ts=1660740065045"
+    },
+    {
+      "WcId": 27,
+      "WcTitle": "RIPPED MOM JEANS",
+      "WcPrice": "₹ 2,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/230/800/2/w/210/8197230800_1_1_1.jpg?ts=1660230980730"
+    },
+    {
+      "WcId": 28,
+      "WcTitle": "KNIT CROP TOP",
+      "WcPrice": "₹ 1,590.00",
+      "WcCategory": "top",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/9878/169/704/2/w/294/9878169704_1_1_1.jpg?ts=1660727378316"
+    },
+    {
+      "WcId": 29,
+      "WcTitle": "BASIC CROPPED KNIT TOP",
+      "WcPrice": "₹ 1,790.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2492/157/710/2/w/294/2492157710_1_1_1.jpg?ts=1660727340357"
+    },
+    {
+      "WcId": 30,
+      "WcTitle": "CORSETRY-INSPIRED LACE TOP",
+      "WcPrice": "₹ 2,590.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/3578/770/800/2/w/294/3578770800_1_1_1.jpg?ts=1660218545919"
+    },
+    {
+      "WcId": 31,
+      "WcTitle": "BASIC CROPPED KNIT TOP",
+      "WcPrice": "₹ 1,790.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7385/112/250/12/w/294/7385112250_1_1_1.jpg?ts=1661158675021"
+    },
+    {
+      "WcId": 32,
+      "WcTitle": "KNIT CROP TOP",
+      "WcPrice": "₹ 1,590.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2731/254/800/3/w/294/2731254800_1_1_1.jpg?ts=1661160322557"
+    },
+    {
+      "WcId": 33,
+      "WcTitle": "MOCK NECK KNIT TOP",
+      "WcPrice": "₹ 1,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2893/121/706/2/w/294/2893121706_1_1_1.jpg?ts=1660750865369"
+    },
+    {
+      "WcId": 34,
+      "WcTitle": "ASYMMETRIC CROP TOP",
+      "WcPrice": "₹ 1,890.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/0085/806/251/2/w/294/0085806251_1_1_1.jpg?ts=1657812180845"
+    },
+    {
+      "WcId": 35,
+      "WcTitle": "MOCK NECK KNIT TOP",
+      "WcPrice": "₹ 1,990.00",
+      "WcCategory": "shirt",
+      "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2893/121/800/2/w/294/2893121800_1_1_1.jpg?ts=1660750869973"
+    },
+    {
+      "WcId": 36,
+      "WcTitle": "BLOCK-HEEL SLINGBACK SHOES",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2242/010/107/2/w/294/2242010107_6_2_1.jpg?ts=1659538230462"
+    },
+    {
+      "WcId": 37,
+      "WcTitle": "EMBELLISHED VINYL HIGH-HEEL ",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2232/910/111/2/w/294/2232910111_6_1_1.jpg?ts=1646236158806"
+    },
+    {
+      "WcId": 38,
+      "WcTitle": "HIGH-HEEL SLINGBACK SHOES",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2207/010/060/2/w/294/2207010060_6_1_1.jpg?ts=1656498476591"
+    },
+    {
+      "WcId": 39,
+      "WcTitle": "HIGH-HEEL SLINGBACK SHOES",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2241/010/060/2/w/294/2241010060_6_1_1.jpg?ts=1660737256193"
+    },
+    {
+      "WcId": 40,
+      "WcTitle": "EMBELLISHED VINYL",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2220/010/021/2/w/294/2220010021_6_1_1.jpg?ts=1660911563151"
+    },
+    {
+      "WcId": 41,
+      "WcTitle": "HIGH-HEEL SHOES",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1338/010/040/2/w/294/1338010040_6_1_1.jpg?ts=1657627193064"
+    },
+    {
+      "WcId": 42,
+      "WcTitle": "HIGH-HEEL LEATHER",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1206/010/001/2/w/294/1206010001_6_1_1.jpg?ts=1655282098740"
+    },
+    {
+      "WcId": 43,
+      "WcTitle": "HIGH-HEEL PLATFORM SHOES",
+      "WcPrice": "₹ 4,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/3322/010/050/2/w/294/3322010050_6_1_1.jpg?ts=1656404480729"
+    },
+    {
+      "WcId": 44,
+      "WcTitle": "BLOCK-HEEL SHOES",
+      "WcPrice": "₹ 4,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1509/010/002/2/w/294/1509010002_6_1_1.jpg?ts=1660736365728"
+    },
+    {
+      "WcId": 45,
+      "WcTitle": "EMBELLISHED HEELED",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2238/910/040/2/w/294/2238910040_6_2_1.jpg?ts=1650541836272"
+    },
+    {
+      "WcId": 46,
+      "WcTitle": "EMBELLISHED VINYL",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2224/010/075/2/w/294/2224010075_6_1_1.jpg?ts=1659083327433"
+    },
+    {
+      "WcId": 47,
+      "WcTitle": "SLINGBACK SHOES",
+      "WcPrice": "₹ 2,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2238/010/080/2/w/294/2238010080_6_1_1.jpg?ts=1660123704886"
+    },
+    {
+      "WcId": 48,
+      "WcTitle": "",
+      "WcPrice": "",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2226/010/098/2/w/294/2226010098_6_1_1.jpg?ts=1657622753796"
+    },
+    {
+      "WcId": 49,
+      "WcTitle": "SPLIT SUEDE HEELED ANKLE BOO",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2105/910/107/2/w/294/2105910107_6_1_1.jpg?ts=1658153393223"
+    },
+    {
+      "WcId": 50,
+      "WcTitle": "ANIMAL PRINT LOAFERS",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2519/910/195/2/w/294/2519910195_6_1_1.jpg?ts=1646383903243"
+    },
+    {
+      "WcId": 51,
+      "WcTitle": "COWBOY-STYLE ANKLE BOOTS",
+      "WcPrice": "₹ 5,990.00",
+      "WcCategory": "shoes",
+      "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/3105/910/040/2/w/294/3105910040_6_1_1.jpg?ts=1660209689115"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
