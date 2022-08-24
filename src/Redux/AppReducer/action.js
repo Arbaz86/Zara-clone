@@ -16,11 +16,11 @@ export const getMenClothes = (params) => (dispatch) => {
 };
 
 // THIS IS FOR GETTING WOMEN DATA TO SEARCH RESULT
-export const getWomenClothes = () => (dispatch) => {
+export const getWomenClothes = (params) => (dispatch) => {
   dispatch({ type: types.GET_WOMEN_CLOTHES_DATA_REQUEST });
 
   return axios
-    .get("http://localhost:8080/womenClothes")
+    .get("http://localhost:8080/womenClothes", params)
     .then(({ data }) => {
       dispatch({ type: types.GET_WOMEN_CLOTHES_DATA_SUCCESS, payload: data });
     })

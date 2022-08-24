@@ -45,10 +45,8 @@ const SearchProduct = () => {
       </Box>
 
       <Box>
-        <SearchInput />
+        <SearchInput section={section} />
       </Box>
-
-      <Box></Box>
     </Box>
   );
 };

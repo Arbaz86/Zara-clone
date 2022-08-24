@@ -362,56 +362,56 @@
 
   "womenClothes": [
     {
-      "WcId": 1,
+      "WcId": "010",
       "WcTitle": "SATIN OVERSIZE SHIRT",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7885/138/390/2/w/294/7885138390_1_1_1.jpg?ts=1661181017705"
     },
     {
-      "WcId": 2,
+      "WcId": "020",
       "WcTitle": "SATIN SHIRT",
       "WcPrice": "₹ 1,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/V/0/1/p/7969/046/251/2/w/294/7969046251_1_1_1.jpg?ts=1644423513750"
     },
     {
-      "WcId": 3,
+      "WcId": "030",
       "WcTitle": "FLOWING PRINTED SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7516/287/330/2/w/294/7516287330_1_1_1.jpg?ts=1660667780876"
     },
     {
-      "WcId": 4,
+      "WcId": "040",
       "WcTitle": "PRINTED FITTED SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8741/256/250/2/w/294/8741256250_1_1_1.jpg?ts=1661160265195"
     },
     {
-      "WcId": 5,
+      "WcId": "050",
       "WcTitle": "FLOWING SATIN SHIRT",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2718/853/070/12/w/294/2718853070_1_1_1.jpg?ts=1656487997776"
     },
     {
-      "WcId": 6,
+      "WcId": "060",
       "WcTitle": "FLORAL PRINT SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8614/845/800/2/w/294/8614845800_1_1_1.jpg?ts=1660727356725"
     },
     {
-      "WcId": 7,
+      "WcId": "070",
       "WcTitle": "BUTTONED SATIN SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2183/251/064/2/w/294/2183251064_1_1_1.jpg?ts=1655286479445"
     },
     {
-      "WcId": 8,
+      "WcId": "080",
       "WcTitle": "PRINTED SHIRT WITH POCKET",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
@@ -419,301 +419,301 @@
     },
 
     {
-      "WcId": 9,
+      "WcId": "090",
       "WcTitle": "FLOWING SATIN SHIRT",
       "WcPrice": "FITTED SHIRT WITH GOLDEN BUTT",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2535/308/042/12/w/294/2535308042_1_1_1.jpg?ts=1661165711059"
     },
     {
-      "WcId": 10,
+      "WcId": "0100",
       "WcTitle": "SATIN SHIRT",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7484/171/712/2/w/294/7484171712_1_1_1.jpg?ts=1660914769554"
     },
     {
-      "WcId": 11,
+      "WcId": "0110",
       "WcTitle": "OVERSIZED SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8365/771/406/2/w/294/8365771406_1_1_1.jpg?ts=1660218583644"
     },
     {
-      "WcId": 12,
+      "WcId": "0120",
       "WcTitle": "SATIN SHIRT WITH PATCH POCKE",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2157/240/800/2/w/294/2157240800_1_1_1.jpg?ts=1658315564393"
     },
     {
-      "WcId": 13,
+      "WcId": "0130",
       "WcTitle": "BUTTONED SATIN SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8752/777/407/2/w/294/8752777407_1_1_1.jpg?ts=1660727368325"
     },
     {
-      "WcId": 14,
+      "WcId": "0140",
       "WcTitle": "BUTTONED SATIN SHIRT",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/1971/176/629/2/w/294/1971176629_1_1_1.jpg?ts=1660900615181"
     },
     {
-      "WcId": 15,
+      "WcId": "0150",
       "WcTitle": "SATIN SHIRT",
       "WcPrice": "₹ 1,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7969/046/630/2/w/294/7969046630_1_1_1.jpg?ts=1654186186011"
     },
     {
-      "WcId": 16,
+      "WcId": "0160",
       "WcTitle": "WIDE-LEG JEANS",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6688/023/406/13/w/294/6688023406_1_1_1.jpg?ts=1657708942067"
     },
     {
-      "WcId": 17,
+      "WcId": "0170",
       "WcTitle": "Z1975 HIGH-RISE STRAIGHT JEAN",
       "WcPrice": "₹ 3,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8527/161/250/2/w/294/8527161250_1_1_1.jpg?ts=1660811836016"
     },
     {
-      "WcId": 18,
+      "WcId": "0180",
       "WcTitle": "COMFORT FIT MOM JEANS",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/257/406/2/w/294/8197257406_1_1_1.jpg?ts=1657874800771"
     },
     {
-      "WcId": 19,
+      "WcId": "0190",
       "WcTitle": "BELTED CARGO JEANS",
       "WcPrice": "₹ 3,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6688/208/400/12/w/294/6688208400_1_1_1.jpg?ts=1661158568332"
     },
     {
-      "WcId": 20,
+      "WcId": "0200",
       "WcTitle": "CUT-OUT DENIM JUMPSUIT",
       "WcPrice": "₹ 3,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/3175/200/400/2/w/294/3175200400_1_1_1.jpg?ts=1660744984278"
     },
     {
-      "WcId": 21,
+      "WcId": "0210",
       "WcTitle": "HIGH RISE SCULPT JEANS",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/251/800/2/w/294/8197251800_1_1_1.jpg?ts=1660907479917"
     },
     {
-      "WcId": 22,
+      "WcId": "0220",
       "WcTitle": "₹ 2,990.00",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6045/065/427/2/w/294/6045065427_1_1_1.jpg?ts=1660744997357"
     },
     {
-      "WcId": 23,
+      "WcId": "0230",
       "WcTitle": "CARGO JEANS WITH SPLIT HEMS",
       "WcPrice": "₹ 3,990.00",
       "WcCategory": "jeans",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/1971/180/250/2/w/294/1971180250_1_1_1.jpg?ts=1660900604420"
     },
     {
-      "WcId": 24,
+      "WcId": "0240",
       "WcTitle": "Z1975 MID-RISE STRAIGHT LONG-",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/5862/178/427/2/w/294/5862178427_1_1_1.jpg?ts=1660667786335"
     },
     {
-      "WcId": 25,
+      "WcId": "0250",
       "WcTitle": "ZW THE HIGH RISE CROPPED FLA",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/6840/261/800/2/w/210/6840261800_1_1_1.jpg?ts=1660724945621"
     },
     {
-      "WcId": 26,
+      "WcId": "0260",
       "WcTitle": "HIGH RISE SCULPT JEANS",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8741/259/250/2/w/294/8741259250_1_1_1.jpg?ts=1660740065045"
     },
     {
-      "WcId": 27,
+      "WcId": "0270",
       "WcTitle": "RIPPED MOM JEANS",
       "WcPrice": "₹ 2,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/8197/230/800/2/w/210/8197230800_1_1_1.jpg?ts=1660230980730"
     },
     {
-      "WcId": 28,
+      "WcId": "0280",
       "WcTitle": "KNIT CROP TOP",
       "WcPrice": "₹ 1,590.00",
       "WcCategory": "top",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/9878/169/704/2/w/294/9878169704_1_1_1.jpg?ts=1660727378316"
     },
     {
-      "WcId": 29,
+      "WcId": "0290",
       "WcTitle": "BASIC CROPPED KNIT TOP",
       "WcPrice": "₹ 1,790.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2492/157/710/2/w/294/2492157710_1_1_1.jpg?ts=1660727340357"
     },
     {
-      "WcId": 30,
+      "WcId": "0300",
       "WcTitle": "CORSETRY-INSPIRED LACE TOP",
       "WcPrice": "₹ 2,590.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/3578/770/800/2/w/294/3578770800_1_1_1.jpg?ts=1660218545919"
     },
     {
-      "WcId": 31,
+      "WcId": "0310",
       "WcTitle": "BASIC CROPPED KNIT TOP",
       "WcPrice": "₹ 1,790.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/7385/112/250/12/w/294/7385112250_1_1_1.jpg?ts=1661158675021"
     },
     {
-      "WcId": 32,
+      "WcId": "0320",
       "WcTitle": "KNIT CROP TOP",
       "WcPrice": "₹ 1,590.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2731/254/800/3/w/294/2731254800_1_1_1.jpg?ts=1661160322557"
     },
     {
-      "WcId": 33,
+      "WcId": "0330",
       "WcTitle": "MOCK NECK KNIT TOP",
       "WcPrice": "₹ 1,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2893/121/706/2/w/294/2893121706_1_1_1.jpg?ts=1660750865369"
     },
     {
-      "WcId": 34,
+      "WcId": "0340",
       "WcTitle": "ASYMMETRIC CROP TOP",
       "WcPrice": "₹ 1,890.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/0085/806/251/2/w/294/0085806251_1_1_1.jpg?ts=1657812180845"
     },
     {
-      "WcId": 35,
+      "WcId": "0350",
       "WcTitle": "MOCK NECK KNIT TOP",
       "WcPrice": "₹ 1,990.00",
       "WcCategory": "shirt",
       "WcImage": "https://static.zara.net/photos///2022/I/0/1/p/2893/121/800/2/w/294/2893121800_1_1_1.jpg?ts=1660750869973"
     },
     {
-      "WcId": 36,
+      "WcId": "0360",
       "WcTitle": "BLOCK-HEEL SLINGBACK SHOES",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2242/010/107/2/w/294/2242010107_6_2_1.jpg?ts=1659538230462"
     },
     {
-      "WcId": 37,
+      "WcId": "0370",
       "WcTitle": "EMBELLISHED VINYL HIGH-HEEL ",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2232/910/111/2/w/294/2232910111_6_1_1.jpg?ts=1646236158806"
     },
     {
-      "WcId": 38,
+      "WcId": "0380",
       "WcTitle": "HIGH-HEEL SLINGBACK SHOES",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2207/010/060/2/w/294/2207010060_6_1_1.jpg?ts=1656498476591"
     },
     {
-      "WcId": 39,
+      "WcId": "0390",
       "WcTitle": "HIGH-HEEL SLINGBACK SHOES",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2241/010/060/2/w/294/2241010060_6_1_1.jpg?ts=1660737256193"
     },
     {
-      "WcId": 40,
+      "WcId": "0400",
       "WcTitle": "EMBELLISHED VINYL",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2220/010/021/2/w/294/2220010021_6_1_1.jpg?ts=1660911563151"
     },
     {
-      "WcId": 41,
+      "WcId": "0410",
       "WcTitle": "HIGH-HEEL SHOES",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1338/010/040/2/w/294/1338010040_6_1_1.jpg?ts=1657627193064"
     },
     {
-      "WcId": 42,
+      "WcId": "0420",
       "WcTitle": "HIGH-HEEL LEATHER",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1206/010/001/2/w/294/1206010001_6_1_1.jpg?ts=1655282098740"
     },
     {
-      "WcId": 43,
+      "WcId": "0430",
       "WcTitle": "HIGH-HEEL PLATFORM SHOES",
       "WcPrice": "₹ 4,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/3322/010/050/2/w/294/3322010050_6_1_1.jpg?ts=1656404480729"
     },
     {
-      "WcId": 44,
+      "WcId": "0440",
       "WcTitle": "BLOCK-HEEL SHOES",
       "WcPrice": "₹ 4,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/1509/010/002/2/w/294/1509010002_6_1_1.jpg?ts=1660736365728"
     },
     {
-      "WcId": 45,
+      "WcId": "0450",
       "WcTitle": "EMBELLISHED HEELED",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2238/910/040/2/w/294/2238910040_6_2_1.jpg?ts=1650541836272"
     },
     {
-      "WcId": 46,
+      "WcId": "0460",
       "WcTitle": "EMBELLISHED VINYL",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2224/010/075/2/w/294/2224010075_6_1_1.jpg?ts=1659083327433"
     },
     {
-      "WcId": 47,
+      "WcId": "0470",
       "WcTitle": "SLINGBACK SHOES",
       "WcPrice": "₹ 2,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2238/010/080/2/w/294/2238010080_6_1_1.jpg?ts=1660123704886"
     },
     {
-      "WcId": 48,
+      "WcId": "0480",
       "WcTitle": "",
       "WcPrice": "",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2226/010/098/2/w/294/2226010098_6_1_1.jpg?ts=1657622753796"
     },
     {
-      "WcId": 49,
+      "WcId": "0490",
       "WcTitle": "SPLIT SUEDE HEELED ANKLE BOO",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/I/1/1/p/2105/910/107/2/w/294/2105910107_6_1_1.jpg?ts=1658153393223"
     },
     {
-      "WcId": 50,
+      "WcId": "0500",
       "WcTitle": "ANIMAL PRINT LOAFERS",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
       "WcImage": "https://static.zara.net/photos///2022/V/1/1/p/2519/910/195/2/w/294/2519910195_6_1_1.jpg?ts=1646383903243"
     },
     {
-      "WcId": 51,
+      "WcId": "0510",
       "WcTitle": "COWBOY-STYLE ANKLE BOOTS",
       "WcPrice": "₹ 5,990.00",
       "WcCategory": "shoes",
