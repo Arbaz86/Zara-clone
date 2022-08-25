@@ -6,17 +6,36 @@ const SearchList = ({ clothes, section }) => {
   console.log(clothes);
 
   return (
-    <Box w="16.3vw">
+    <Box w="15.5vw">
       <Box>
-        <Image src={section === "MAN" ? clothes.McImage : clothes.WcImage} />
+        <Image
+          w="16vw"
+          src={
+            section === "MAN"
+              ? clothes.McImage
+              : section === "WOMAN"
+              ? clothes.WcImage
+              : clothes.image
+          }
+        />
       </Box>
       <Flex justifyContent={"space-between"}>
-        <Text>
+        <Text w="70%">
           <Link to>
-            {section === "MAN" ? clothes.McTitle : clothes.WcTitle}
+            {section === "MAN"
+              ? clothes.McTitle
+              : section === "WOMAN"
+              ? clothes.WcTitle
+              : clothes.name}
           </Link>
         </Text>
-        <Text>{section === "MAN" ? clothes.McPrice : clothes.WcPrice}</Text>
+        <Text>
+          {section === "MAN"
+            ? clothes.McPrice
+            : section === "WOMAN"
+            ? clothes.WcPrice
+            : clothes.price}
+        </Text>
       </Flex>
     </Box>
   );

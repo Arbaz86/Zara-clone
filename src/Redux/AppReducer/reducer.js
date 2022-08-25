@@ -3,6 +3,7 @@ import * as types from "./actionTypes";
 const initialState = {
   menClothes: [],
   womenClothes: [],
+  kidsClothes: [],
   isLoding: false,
   isError: false,
 };
@@ -46,6 +47,27 @@ export const reducer = (state = initialState, action) => {
         isError: false,
       };
     case types.GET_WOMEN_CLOTHES_DATA_FAILURE:
+      return {
+        ...state,
+        isLoding: false,
+        isError: false,
+      };
+
+    // THIS IS FOR GETTING WOMEN DATA TO SEARCH RESULT
+    case types.GET_KIDS_CLOTHES_DATA_REQUEST:
+      return {
+        ...state,
+        isLoding: true,
+        isError: false,
+      };
+    case types.GET_KIDS_CLOTHES_DATA_SUCCESS:
+      return {
+        ...state,
+        kidsClothes: payload,
+        isLoding: false,
+        isError: false,
+      };
+    case types.GET_KIDS_CLOTHES_DATA_FAILURE:
       return {
         ...state,
         isLoding: false,

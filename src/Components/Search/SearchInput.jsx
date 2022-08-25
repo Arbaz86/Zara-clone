@@ -2,13 +2,18 @@ import { Box, Flex, Input, ListItem, UnorderedList } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
-import { getMenClothes, getWomenClothes } from "../../Redux/AppReducer/action";
+import {
+  getKidsClothes,
+  getMenClothes,
+  getWomenClothes,
+} from "../../Redux/AppReducer/action";
 import SearchList from "./SearchList";
 import { debounce } from "debounce";
 
 const SearchInput = ({ section }) => {
   const menClothes = useSelector((state) => state.AppReducer.menClothes);
   const womenClothes = useSelector((state) => state.AppReducer.womenClothes);
+  const kidsClothes = useSelector((state) => state.AppReducer.kidsClothes);
 
   const dispatch = useDispatch();
 
@@ -18,6 +23,10 @@ const SearchInput = ({ section }) => {
 
   const handleChangeTerms = (e) => {
     setInputValue(e.target.value);
+  };
+
+  const handleTrendingSearch = (value) => {
+    setInputValue(value);
   };
 
   console.log(inputValue);
@@ -45,6 +54,13 @@ const SearchInput = ({ section }) => {
           },
         };
         dispatch(getMenClothes(searchQuery));
+      } else if (section === "KIDS") {
+        let searchQuery = {
+          params: {
+            q: inputValue,
+          },
+        };
+        dispatch(getKidsClothes(searchQuery));
       }
 
       setSearchParams(params);
@@ -80,7 +96,13 @@ const SearchInput = ({ section }) => {
         {inputValue ? (
           <>
             {section === "WOMAN" ? (
-              <>
+              <Flex
+                flexWrap="wrap"
+                columnGap="10px"
+                rowGap="25px"
+                p="20px"
+                justifyContent="center"
+              >
                 {womenClothes.length > 0 &&
                   womenClothes.map((cloth) => (
                     <SearchList
@@ -89,9 +111,15 @@ const SearchInput = ({ section }) => {
                       clothes={cloth}
                     />
                   ))}
-              </>
-            ) : (
-              <>
+              </Flex>
+            ) : section === "MAN" ? (
+              <Flex
+                flexWrap="wrap"
+                rowGap="25px"
+                columnGap="10px"
+                p="20px"
+                justifyContent="center"
+              >
                 {menClothes.length > 0 &&
                   menClothes.map((cloth) => (
                     <SearchList
@@ -100,21 +128,69 @@ const SearchInput = ({ section }) => {
                       clothes={cloth}
                     />
                   ))}
-              </>
+              </Flex>
+            ) : (
+              <Flex
+                flexWrap="wrap"
+                rowGap="25px"
+                columnGap="10px"
+                p="20px"
+                justifyContent="center"
+              >
+                {kidsClothes.length > 0 &&
+                  kidsClothes.map((cloth) => (
+                    <SearchList
+                      key={cloth.id}
+                      section={section}
+                      clothes={cloth}
+                    />
+                  ))}
+              </Flex>
             )}
           </>
         ) : (
-          <Box>
+          <Box m="10rem" mt="5rem">
             <UnorderedList
               display="flex"
               flexDirection="column"
               gap="10px"
-              fontSize="18px"
+              fontSize="16px"
               listStyleType="none"
+              fontWeight="500"
+              color="#7f7f7f"
+              lineHeight="2.4rem"
             >
-              <ListItem cursor="pointer">WOMAN</ListItem>
-              <ListItem cursor="pointer">MAN</ListItem>
-              <ListItem cursor="pointer">KIDS</ListItem>
+              <ListItem w="70px" cursor="pointer" color="#000000">
+                TRENDS
+              </ListItem>
+              <ListItem
+                w="70px"
+                cursor="pointer"
+                onClick={() => handleTrendingSearch("DRESS")}
+              >
+                DRESS
+              </ListItem>
+              <ListItem
+                w="70px"
+                cursor="pointer"
+                onClick={() => handleTrendingSearch("TOP")}
+              >
+                TOP
+              </ListItem>
+              <ListItem
+                w="70px"
+                cursor="pointer"
+                onClick={() => handleTrendingSearch("JEANS")}
+              >
+                JEANS
+              </ListItem>
+              <ListItem
+                w="70px"
+                cursor="pointer"
+                onClick={() => handleTrendingSearch("BLAZER")}
+              >
+                BLAZER
+              </ListItem>
             </UnorderedList>
           </Box>
         )}
