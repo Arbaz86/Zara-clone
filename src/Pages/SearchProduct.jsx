@@ -16,9 +16,12 @@ const SearchProduct = () => {
       <Box>
         <UnorderedList
           display="flex"
-          gap="10px"
+          justifyContent="center"
+          alignItems="center"
+          gap="30px"
           fontSize="18px"
           listStyleType="none"
+          mb="4.5rem"
         >
           <ListItem
             cursor="pointer"
