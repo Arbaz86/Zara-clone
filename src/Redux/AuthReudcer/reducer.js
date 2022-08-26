@@ -1,4 +1,4 @@
-import { getLocalData, saveLocalData } from "../../utils/localStorage";
+import { getLocalData, saveLocalData } from "../../Utils/localStorage";
 import * as types from "./actionTypes";
 
 const init_state = {
