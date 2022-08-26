@@ -8,7 +8,6 @@ import {
   getWomenClothes,
 } from "../../Redux/AppReducer/action";
 import SearchList from "./SearchList";
-import { debounce } from "debounce";
 
 const SearchInput = ({ section }) => {
   const menClothes = useSelector((state) => state.AppReducer.menClothes);
@@ -32,41 +31,56 @@ const SearchInput = ({ section }) => {
   console.log(inputValue);
 
   useEffect(() => {
+    let timer;
     if (inputValue && section) {
       const params = {
         searchTerm: inputValue,
         section,
       };
+      setSearchParams(params);
 
       if (section === "WOMAN") {
-        console.log(section);
         let searchQuery = {
           params: {
             q: inputValue,
           },
         };
 
-        dispatch(getWomenClothes(searchQuery));
+        timer = setTimeout(() => {
+          dispatch(getWomenClothes(searchQuery));
+        }, 1500);
+
+        return () => clearTimeout(timer);
       } else if (section === "MAN") {
         let searchQuery = {
           params: {
             q: inputValue,
           },
         };
-        dispatch(getMenClothes(searchQuery));
+
+        timer = setTimeout(() => {
+          dispatch(getMenClothes(searchQuery));
+        }, 1500);
+
+        return () => clearTimeout(timer);
       } else if (section === "KIDS") {
         let searchQuery = {
           params: {
             q: inputValue,
           },
         };
-        dispatch(getKidsClothes(searchQuery));
-      }
 
-      setSearchParams(params);
+        const timer = setTimeout(() => {
+          dispatch(getKidsClothes(searchQuery));
+        }, 1500);
+
+        return () => clearTimeout(timer);
+      }
     } else {
       setSearchParams([]);
     }
+
+    return () => clearTimeout(timer);
   }, [dispatch, initialTermValue, inputValue, section, setSearchParams]);
 
   return (
@@ -129,7 +143,7 @@ const SearchInput = ({ section }) => {
                     />
                   ))}
               </Flex>
-            ) : (
+            ) : section === "KIDS" ? (
               <Flex
                 flexWrap="wrap"
                 rowGap="25px"
@@ -146,6 +160,8 @@ const SearchInput = ({ section }) => {
                     />
                   ))}
               </Flex>
+            ) : (
+              ""
             )}
           </>
         ) : (
