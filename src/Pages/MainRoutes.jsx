@@ -10,9 +10,10 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<PreLandingPage />} />
+      <Route path="/in" element={<Homepage />} />
       <Route path="/search" element={<SearchProduct />} />
       <Route path="/signup" element={<SignUp />} />
-      <Route path="login" element={<Login />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };

@@ -23,16 +23,6 @@ const PreLandingPage = () => {
         src={property.imageUrl}
         alt={property.imageAlt}
       />
-      <Image
-        style={{
-          width: "150px",
-          marginLeft: "-88%",
-          position: "absolute",
-          marginTop: "100px",
-        }}
-        src={property.Logoimg}
-        alt={property.imageAlt}
-      />
 
       <Box
         style={{
@@ -102,16 +92,22 @@ const PreLandingPage = () => {
       <Box
         style={{
           position: "absolute",
-          padding: "10px",
+          padding: "5px",
           marginTop: "-100px",
           marginLeft: "93%",
-          width: "40px",
-          height: "40px",
+          width: "50px",
+          height: "50px",
           borderRadius: "80px",
           background: "black",
         }}
       >
-        <BiBody style={{ color: "white", width: "40px", height: "40px" }} />
+        <BiBody
+          style={{
+            color: "white",
+            width: "40px",
+            height: "40px",
+          }}
+        />
       </Box>
     </Box>
   );
