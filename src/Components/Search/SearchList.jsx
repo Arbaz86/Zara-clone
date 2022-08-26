@@ -15,7 +15,9 @@ const SearchList = ({ clothes, section }) => {
               ? clothes.McImage
               : section === "WOMAN"
               ? clothes.WcImage
-              : clothes.image
+              : section === "KIDS"
+              ? clothes.image
+              : ""
           }
         />
       </Box>
@@ -26,7 +28,9 @@ const SearchList = ({ clothes, section }) => {
               ? clothes.McTitle
               : section === "WOMAN"
               ? clothes.WcTitle
-              : clothes.name}
+              : section === "KIDS"
+              ? clothes.name
+              : ""}
           </Link>
         </Text>
         <Text>
@@ -34,7 +38,9 @@ const SearchList = ({ clothes, section }) => {
             ? clothes.McPrice
             : section === "WOMAN"
             ? clothes.WcPrice
-            : clothes.price}
+            : section === "KIDS"
+            ? clothes.price
+            : ""}
         </Text>
       </Flex>
     </Box>
