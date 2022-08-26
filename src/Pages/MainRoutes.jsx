@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import Footer from "../Components/Footer";
 import Homepage from "./Homepage";
 import Login from "./Login";
 import PreLandingPage from "./PreLandingPage";
