@@ -73,20 +73,11 @@ function SideBar() {
                     </TabPanel>
                 </TabPanels>
                 </Tabs>
-            {/* <DrawerHeader borderBottomWidth='1px'>Women</DrawerHeader>
-            <DrawerBody>
-             <Container>
-                <Box>New</Box>
-                <Box>T-shirts</Box>
-                <Box>TrackSuits</Box>
-                <Box>Trousers</Box>
-                <Box>SweatShirts</Box>                
-             </Container> */}
-             <Divider mt={"10%"} color="none" />
+             <Divider mt={"5%"} color="none" />
              <Text>GIFT CARD</Text>
-             <Divider mt={"10%"} color="none" />
+             <Divider mt={"5%"} color="none" />
             <Text>JOIN LIFE</Text>
-            <Divider mt={"10%"} color="none"/>
+            <Divider mt={"5%"} color="none"/>
             <Menu>
             <MenuButton as={Button} leftIcon={<AddIcon />} width="50%">
                 INFO

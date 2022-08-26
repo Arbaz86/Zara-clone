@@ -1,5 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import Footer from "../components/Footer";
+import FooterCommon from "../components/FooterCommon";
 import Navbar from "../components/Navbar";
 import Homepage from "./Homepage";
 import Login from "./Login";
@@ -16,6 +18,8 @@ const MainRoutes = () => {
       <Route path='/signup' element={<SignUp/>}/>
         <Route path='login' element={<Login/>}/>
     </Routes>
+    <Footer/>
+    <FooterCommon/>
     </>
   );
 };

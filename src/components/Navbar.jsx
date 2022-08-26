@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         </div>
     </div> */}
-    <Box border={"1px solid red"}>
+    <Box fontFamily={"Neue-Helvetica"} fontSize="16px">
       <Flex>
       <Flex w={"25%"} p={"4"} h={"15vh"} justifyContent={"space-between"}>
         <SideBar/>
@@ -39,9 +39,9 @@ const Navbar = () => {
             <Spacer/>
             <Box as='flex' padding={"10px"}>
               
-                <Button><Link to={"/login"}>login</Link></Button>
-                <Button><Link to={"/Help"}>Help</Link></Button>
-                <Link to={"/cart"}><Button><FiShoppingBag  /></Button></Link>
+                <Button bg={"transparent"}><Link to={"/login"}>login</Link></Button>
+                <Button bg={"transparent"}><Link to={"/Help"}>Help</Link></Button>
+                <Link to={"/cart"}><Button bg={"transparent"}><FiShoppingBag  /></Button></Link>
               
             </Box>
           </Flex>

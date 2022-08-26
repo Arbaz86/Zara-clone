@@ -14,13 +14,14 @@ import {
         bg={useColorModeValue('gray.50', 'gray.900')}
         color={useColorModeValue('gray.700', 'gray.200')}
         fontFamily={"Neue-Helvetica"}
-        fontSize={"10px"}>
+        fontSize={"12px"}>
         <Container
           as={Stack}
           maxW={'6xl'}
           py={4}
           direction={{ base: 'column', md: 'row' }}
           spacing={4}
+          fontFamily="Neue-Helvetica"
           fontSize="12px"
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
