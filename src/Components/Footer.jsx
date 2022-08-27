@@ -1,30 +1,18 @@
-import React from 'react'
-// import { List } from '@chakra-ui/react';
+
 import {
-    Input,
     Box,
+    Container,
     Link,
+    SimpleGrid,
     Stack,
     Text,
     Flex,
+    Tag,
+    useColorModeValue,
   } from '@chakra-ui/react';
+  // import { ReactNode } from 'react';
 
-  const ListHeader = ({ children }) => {
-    return (
-      <Text fontWeight={'500'} fontSize={'12px'} >
-        {children}
-      </Text>
-    );
-  };
-  const ListChild = ({ children }) => {
-    return (
-      <Link  fontSize={'11px'} fontWeight={'340'} style={{lineHeight:"13px"}}>
-        {children}
-      </Link>
-    );
-  };
-  
-  
+ 
 
 const Footer = () => {
   return (

@@ -5,6 +5,8 @@ export const saveLocalData = (key, data) => {
 };
 
 export const getLocalData = (key) => {
-  const data = JSON.parse(localStorage.getItem(key));
+
+  var datas = (localStorage.getItem(key));
+  var data = datas;
   return data;
 };
