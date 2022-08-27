@@ -17,9 +17,9 @@ const ListChild = ({ children }) => {
   );
 };
 
-const Footer = () => {
+const ProductFooter = () => {
   return (
-    <Box boxSize="100%" mt="250px">
+    <Box boxSize="100%">
       <Box w={"75%"} margin="auto">
         <Stack>
           <Box
@@ -178,4 +178,4 @@ const Footer = () => {
     </Box>
   );
 };
-export default Footer;
+export default ProductFooter;

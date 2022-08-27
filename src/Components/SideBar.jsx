@@ -62,19 +62,21 @@ function SideBar() {
           </Flex>
           <Tabs fontFamily={"Neue-Helvetica"} fontSize="16px">
             <TabList>
-              <Tab>Women</Tab>
-              <Tab>Men</Tab>
-              <Tab>Kids</Tab>
+              <Tab>MEN</Tab>
+              <Tab>WOMEN</Tab>
+              <Tab>KIDS</Tab>
             </TabList>
 
             <TabPanels>
               <TabPanel rowGap={"10"}>
-                <Box>New</Box>
+                <Link to="/in/athletics">
+                  <Box>Athletics</Box>
+                </Link>
                 <Link to={"/t-shirts"}>
                   <Box>T-shirts</Box>
                 </Link>
-                <Link to={"/trackSuits"}>
-                  <Box>TrackSuits</Box>
+                <Link to={"/in/mens_blazer"}>
+                  <Box>Mens Blazer</Box>
                 </Link>
                 <Link to={"/trousers"}>
                   <Box>Trousers</Box>

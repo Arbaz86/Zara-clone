@@ -1,53 +1,49 @@
 .main{
   
-    width: 70%;
-   margin: auto;
-    margin-top: 30vh;
-    font-size: 0.7rem;
- }
- /* h1 */
- .input_wrap{
-     position: relative;
-     width:  40%;
-     margin: 30px;
- }
- .input_wrap .inputText{
-     width: 100%;
-     outline: none;
-     border : none;
-     border-bottom: 1px solid #777;
- }
- 
- 
- .input_wrap .label {
-     position: absolute;
-     pointer-events: none;
-     top : 18px;
-     left : 10px;
-     transition: 0.2s ease all;
- }
- .input_wrap input:focus ~ .label, .input_wrap input:not(:focus):valid ~ .label{
-     top: 0px;
-     left : 10px;
-     font-size: 13px;
-     opacity: 1;
- }
- .heading{
-     font-weight: 500;
-     font-size: 1.2rem;
- }
- .btnDiv{
-     margin: 30px;
-     width : 40%; 
-     justify-content: center;
- }
- .submitBtn{
-     width : 100% ;
-     justify-content: center;
-     color: white;
-     background-color: black;
-     padding: 5px;
- }
- /* .inputText{
-    width: 500px;
- } */
+   width: 70%;
+  margin: auto;
+   margin-top: 30vh;
+   font-size: 0.7rem;
+}
+.input_wrap{
+    position: relative;
+    width:  40%;
+    margin: 30px;
+}
+.input_wrap .inputText{
+    width: 100%;
+    outline: none;
+    border : none;
+    border-bottom: 1px solid #777;
+}
+
+
+.input_wrap .label {
+    position: absolute;
+    pointer-events: none;
+    top : 18px;
+    left : 10px;
+    transition: 0.2s ease all;
+}
+.input_wrap input:focus ~ .label, .input_wrap input:not(:focus):valid ~ .label{
+    top: 0px;
+    left : 10px;
+    font-size: 13px;
+    opacity: 1;
+}
+.heading{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.btnDiv{
+    margin: 30px;
+    width : 40%; 
+    justify-content: center;
+}
+.submitBtn{
+    width : 100% ;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
