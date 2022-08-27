@@ -8,9 +8,8 @@ const initialState = {
   isError: false,
 };
 
-export const reducer = (state = initialState, action) => {
+export const reducer = (state = initialState,action) => {
   const { type, payload } = action;
-
   switch (type) {
     // THIS IS FOR GETTING MEN DATA TO SEARCH RESULT
     case types.GET_MEN_CLOTHES_DATA_REQUEST:
@@ -77,4 +76,4 @@ export const reducer = (state = initialState, action) => {
     default:
       return state;
   }
-};
+}

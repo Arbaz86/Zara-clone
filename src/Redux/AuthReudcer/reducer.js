@@ -1,4 +1,4 @@
-import { getLocalData, saveLocalData } from "../../Utils/localStorage";
+import { getLocalData, saveLocalData } from "../../utils/localStorage";
 import * as types from "./actionTypes";
 
 const init_state = {
@@ -38,6 +38,7 @@ export const reducer = (state = init_state, action) => {
     }
     case types.LOGIN_SUCCESS: {
       saveLocalData("token", payload);
+      console.log("token");
       return {
         ...state,
         isLoading: false,
