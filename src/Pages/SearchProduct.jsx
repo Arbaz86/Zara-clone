@@ -11,8 +11,6 @@ const SearchProduct = () => {
 
   return (
     <Box>
-      <Box h="12vh"></Box>
-
       <Box>
         <UnorderedList
           display="flex"
@@ -22,6 +20,7 @@ const SearchProduct = () => {
           fontSize="18px"
           listStyleType="none"
           mb="4.5rem"
+          mt="-30px"
         >
           <ListItem
             cursor="pointer"

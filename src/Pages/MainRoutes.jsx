@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Footer from "../Components/Footer";
 import FooterCommon from "../Components/FooterCommon";
 import Navbar from "../Components/Navbar";
 import Homepage from "./Homepage";
@@ -12,16 +11,50 @@ import SignUp from "./SignUp";
 const MainRoutes = () => {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<PreLandingPage />} />
-      <Route path="/in" element={<Homepage />} />
-      <Route path="/search" element={<SearchProduct />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/login" element={<Login />} />
-    </Routes>
-    <Footer/>
-    <FooterCommon/>
+      <Routes>
+        <Route path="/" element={<PreLandingPage />} />
+        <Route
+          path="/in"
+          element={
+            <>
+              <Navbar />
+              <Homepage />
+              <FooterCommon />
+            </>
+          }
+        />
+        <Route
+          path="/in/search"
+          element={
+            <>
+              <Navbar />
+              <SearchProduct />
+              <FooterCommon />
+            </>
+          }
+        />
+        <Route
+          path="/in/signup"
+          element={
+            <>
+              <Navbar />
+              <SignUp />
+              <FooterCommon />
+            </>
+          }
+        />
+        <Route
+          path="/in/login"
+          element={
+            <>
+              <Navbar />
+              <Login />
+              <FooterCommon />
+            </>
+          }
+        />
+      </Routes>
+      {/* <Footer /> */}
     </>
   );
 };
