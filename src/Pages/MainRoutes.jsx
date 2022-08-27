@@ -4,12 +4,19 @@ import FooterCommon from "../Components/FooterCommon";
 import Navbar from "../Components/Navbar";
 import Homepage from "./Homepage";
 import Login from "./Login";
+
+import MenLandingPage from "./MenLandingPage";
+
 import PreLandingPage from "./PreLandingPage";
+
 import SearchProduct from "./SearchProduct";
 import SignUp from "./SignUp";
 
 const MainRoutes = () => {
   return (
+
+    
+
     <>
       <Routes>
         <Route path="/" element={<PreLandingPage />} />
@@ -56,6 +63,7 @@ const MainRoutes = () => {
       </Routes>
       {/* <Footer /> */}
     </>
+
   );
 };
 
