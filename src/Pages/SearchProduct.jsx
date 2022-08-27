@@ -1,6 +1,6 @@
 import { Box, ListItem, UnorderedList } from "@chakra-ui/react";
 import React, { useState } from "react";
-import SearchInput from "../components/Search/SearchInput";
+import SearchInput from "../Components/Search/SearchInput";
 
 const SearchProduct = () => {
   const [section, setSection] = useState("WOMAN");
