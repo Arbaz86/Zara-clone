@@ -1,4 +1,3 @@
-
 import { Box, Flex, Input, ListItem, UnorderedList } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,26 +9,26 @@ import {
 } from "../../Redux/AppReducer/action";
 import SearchList from "./SearchList";
 
-// const SearchInput = ({ section }) => {
-//   const menClothes = useSelector((state) => state.AppReducer.menClothes);
-//   const womenClothes = useSelector((state) => state.AppReducer.womenClothes);
-//   const kidsClothes = useSelector((state) => state.AppReducer.kidsClothes);
+const SearchInput = ({ section }) => {
+  const menClothes = useSelector((state) => state.AppReducer.menClothes);
+  const womenClothes = useSelector((state) => state.AppReducer.womenClothes);
+  const kidsClothes = useSelector((state) => state.AppReducer.kidsClothes);
 
-//   const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-//   const [searchParams, setSearchParams] = useSearchParams([]);
-//   const [initialTermValue] = searchParams.getAll("searchTerm");
-//   const [inputValue, setInputValue] = useState(initialTermValue || "");
+  const [searchParams, setSearchParams] = useSearchParams([]);
+  const [initialTermValue] = searchParams.getAll("searchTerm");
+  const [inputValue, setInputValue] = useState(initialTermValue || "");
 
-//   const handleChangeTerms = (e) => {
-//     setInputValue(e.target.value);
-//   };
+  const handleChangeTerms = (e) => {
+    setInputValue(e.target.value);
+  };
 
-//   const handleTrendingSearch = (value) => {
-//     setInputValue(value);
-//   };
+  const handleTrendingSearch = (value) => {
+    setInputValue(value);
+  };
 
-//   console.log(inputValue);
+  console.log(inputValue);
 
   useEffect(() => {
     let timer;
@@ -84,29 +83,28 @@ import SearchList from "./SearchList";
     return () => clearTimeout(timer);
   }, [dispatch, initialTermValue, inputValue, section, setSearchParams]);
 
-
-//   return (
-//     <Box>
-//       <Flex justifyContent="flex-end">
-//         <Input
-//           border="0px"
-//           borderBottom="1px solid black"
-//           w="90%"
-//           m="10px"
-//           placeholder="ENTER SEARCH TERMS"
-//           _hover={false}
-//           focusBorderColor="0px"
-//           rounded="0px"
-//           _placeholder={{ color: "black", fontSize: "30px", fontWeight: "340" }}
-//           p="0px 0px 12px 0px"
-//           fontWeight="600"
-//           value={inputValue}
-//           fontSize="30px"
-//           onChange={handleChangeTerms}
-//           textTransform="uppercase"
-//           letterSpacing="-0.2px"
-//         />
-//       </Flex>
+  return (
+    <Box>
+      <Flex justifyContent="flex-end">
+        <Input
+          border="0px"
+          borderBottom="1px solid black"
+          w="90%"
+          m="10px"
+          placeholder="ENTER SEARCH TERMS"
+          _hover={false}
+          focusBorderColor="0px"
+          rounded="0px"
+          _placeholder={{ color: "black", fontSize: "30px", fontWeight: "340" }}
+          p="0px 0px 12px 0px"
+          fontWeight="600"
+          value={inputValue}
+          fontSize="30px"
+          onChange={handleChangeTerms}
+          textTransform="uppercase"
+          letterSpacing="-0.2px"
+        />
+      </Flex>
 
       <Box>
         {inputValue ? (
@@ -217,5 +215,4 @@ import SearchList from "./SearchList";
   );
 };
 
-
-// export default SearchInput;
+export default SearchInput;

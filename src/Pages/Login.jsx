@@ -1,8 +1,8 @@
 // import { position } from "@chakra-ui/react";
 import React, { useState } from "react";
-import {  useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
-import { login } from "../Redux/AuthReudcer/action"
+import { login } from "../Redux/AuthReudcer/action";
 import { LOGIN_SUCCESS } from "../Redux/AuthReudcer/actionTypes";
 import styles from "../Styled/login.module.css";
 // import Register from "./Register";
@@ -26,7 +26,7 @@ const Login = () => {
           if (location.state) {
             navigate(`${location?.state?.from?.pathname}`, { replace: true });
           } else {
-            navigate("/in", { replace: true });   //put the path to navigate landingpage
+            navigate("/in", { replace: true }); //put the path to navigate landingpage
           }
         } else {
           alert("invalid Crenditials");
@@ -35,37 +35,33 @@ const Login = () => {
       });
     }
   };
-     const gotoReg=()=>{
-       navigate("/signup")
-     }
+  const gotoReg = () => {
+    navigate("/in/signup");
+  };
   return (
     <div className={styles.loginCon}>
       <div className={styles.logsec}>
         <p className={styles.heading}>LOG IN</p>
-      
-         
-          <input
-            className={styles.inputText}
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            type="text"
-            placeholder="USERNAME"
-            required
-          />
-        
-       
-        
-         
-          <input
-            className={styles.inputText}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            type="text"
-            placeholder="PASSWORD"
-            required
-          />
-          <p>HAVE YOU FORGOTTEN YOUR PASSWORD</p>
-       
+
+        <input
+          className={styles.inputText}
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          type="text"
+          placeholder="USERNAME"
+          required
+        />
+
+        <input
+          className={styles.inputText}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          type="password"
+          placeholder="PASSWORD"
+          required
+        />
+        <p>HAVE YOU FORGOTTEN YOUR PASSWORD</p>
+
         <div className={styles.btnDiv}>
           <input
             className={styles.submitBtn}
@@ -88,7 +84,7 @@ const Login = () => {
           </p>
         </div>
         <div>
-                <button onClick={gotoReg}>CREATE ACCOUNT</button>
+          <button onClick={gotoReg}>CREATE ACCOUNT</button>
         </div>
       </div>
     </div>
