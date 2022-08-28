@@ -153,7 +153,7 @@ const Description = () => {
               className={toggle ? styles.cartbtn : styles.bucketbtn}
               onClick={handleBucket}
             >
-              GO TO BUCKET
+              PROCESS ORDER
             </button>
           </div>
         </div>

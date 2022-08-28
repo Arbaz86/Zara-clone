@@ -4,12 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { get_total_amount_func } from "../../Redux/CartProvider/action";
-import {
-  BigItemContainer,
-  ChekoutButtonDiv,
-  // ImageContainerDiv,
-  // IndividualProductDiv,
-} from "./styledcomponent";
+import { BigItemContainer, ChekoutButtonDiv } from "./styledcomponent";
 
 const responsive = {
   desktop: {
@@ -47,9 +42,7 @@ const AddToCartBottom = () => {
   const moreProduct = useSelector((state) => state.cartReducer.moreProduct);
   return (
     <div>
-      <p style={{ textAlign: "left", marginLeft: "50px" }}>
-        COMPLETE YOUR LOOK
-      </p>
+      <p style={{ textAlign: "left" }}>COMPLETE YOUR LOOK</p>
       <BigItemContainer>
         <Carousel responsive={responsive}>
           {moreProduct.map((item) => {
@@ -58,6 +51,7 @@ const AddToCartBottom = () => {
                 key={item.title}
                 style={{
                   width: "300px",
+                  margin: "50px 0px 30px",
                 }}
               >
                 <div>

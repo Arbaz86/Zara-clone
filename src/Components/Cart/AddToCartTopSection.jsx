@@ -7,9 +7,9 @@ const AddToCartTopSection = () => {
   console.log(cart);
   return (
     <CartTopSectionDiv>
-      {cart.length!==0 && (
-            <>
-            <div
+      {cart.length !== 0 && (
+        <>
+          <div
             style={{
               display: "flex",
               justifyContent: "space-around",
@@ -19,10 +19,11 @@ const AddToCartTopSection = () => {
               marginLeft: "10px",
               alignItems: "center",
               fontSize: "21px",
+              marginTop: "-150px",
             }}
           >
             <div>
-            <pre style={{ fontWeight: "700" }}>CART ({cart.length})</pre>
+              <pre style={{ fontWeight: "700" }}>CART ({cart.length})</pre>
             </div>
             <div>
               <p style={{ color: "black" }}>WISHLIST</p>
@@ -30,12 +31,15 @@ const AddToCartTopSection = () => {
           </div>
           <div>
             <Button>
-              Items in the basket are not reserved until completing the purchase.
+              Items in the basket are not reserved until completing the
+              purchase.
             </Button>
           </div>
-          </>
+        </>
       )}
-      {cart.length == 0 && (<pre style={{ fontWeight: "700" }}>Your Basket is Empty.</pre>)}
+      {cart.length == 0 && (
+        <pre style={{ fontWeight: "700" }}>Your Basket is Empty.</pre>
+      )}
     </CartTopSectionDiv>
   );
 };

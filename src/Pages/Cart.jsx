@@ -1,11 +1,12 @@
 import React from "react";
 import AddToCartPage from "../Components/Cart/AddToCartPage";
-import CartNavbar from "../Components/Cart/CartNavbar";
-import Description from "../Components/Cart/Description";
+
+import Navbar from "../Components/Navbar";
 
 const Cart = () => {
   return (
     <div>
+      <Navbar />
       <AddToCartPage />
     </div>
   );

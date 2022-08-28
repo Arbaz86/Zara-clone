@@ -13,8 +13,11 @@ import {
 import { Link } from "react-router-dom";
 import { FiShoppingBag } from "react-icons/fi";
 import SideBar from "./SideBar";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  const isAuth = useSelector((state) => state.AuthReducer.isAuth);
+
   return (
     <>
       <Box fontFamily={"Neue-Helvetica"} fontSize="16px" bg="#2222c" w="100vw">
@@ -42,9 +45,13 @@ const Navbar = () => {
               </Link>
               <Spacer />
               <Box as="flex" padding={"10px"}>
-                <Button bg={"transparent"}>
-                  <Link to={"/in/login"}>login</Link>
-                </Button>
+                {isAuth ? (
+                  ""
+                ) : (
+                  <Button bg={"transparent"}>
+                    <Link to={"/in/login"}>login</Link>
+                  </Button>
+                )}
                 <Button bg={"transparent"}>
                   <Link to={"/in/Help"}>Help</Link>
                 </Button>
