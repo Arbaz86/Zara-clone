@@ -2,9 +2,8 @@ import { useSelector } from "react-redux";
 import { Navigate, useLocation } from "react-router-dom";
 
 const ReqAuth = ({ children }) => {
-  const isAuth = useSelector((state) => state.AuthReudcer.isAuth);
+  const isAuth = useSelector((store) => store.AuthReducer.isAuth);
   const location = useLocation();
-  console.log(isAuth);
 
   if (!isAuth) {
     return <Navigate to="/in/login" state={{ from: location }} replace />;

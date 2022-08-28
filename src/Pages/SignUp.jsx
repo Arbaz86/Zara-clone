@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styles from "../Styled/signup.module.css";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { register } from "../Redux/AuthReudcer/action";
-import { SIGNUP_SUCCESS } from "../Redux/AuthReudcer/actionTypes";
+import { register } from "../Redux/AuthReducer/action";
+import { SIGNUP_SUCCESS } from "../Redux/AuthReducer/actionTypes";
 const SignUp = () => {
   const [userDetails, setUserDetails] = useState({
     email: "",
@@ -27,7 +27,7 @@ const SignUp = () => {
       [name]: value,
     });
   };
-  console.log(userDetails);
+  // console.log(userDetails);
   const handleSignUp = (e) => {
     e.preventDefault();
     dispatch(register(userDetails)).then((r) => {

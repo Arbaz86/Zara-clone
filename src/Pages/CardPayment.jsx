@@ -13,7 +13,7 @@ export default function CardPayment() {
     cardnumber: "",
     month: "",
     year: "",
-    carsholder: "",
+    cardholder: "",
     cvv: "",
   });
 
@@ -41,7 +41,7 @@ export default function CardPayment() {
 
           <div className="card-details-container">
             <img
-              class="img"
+              className="img"
               src="https://static.zara.net/static/images/payment/payment/icon-payment-visa.svg"
               alt=""
             />

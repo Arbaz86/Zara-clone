@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import * as types from "./actionTypes";
 
@@ -19,9 +18,9 @@ export const register = (payload) => (dispatch) => {
 export const login = (params) => (dispatch) => {
   dispatch({ type: types.LOGIN_REQUEST });
   return axios
-    .post("https://masai-api-mocker.herokuapp.com/auth/login", params)
+    .post("https://reqres.in/api/login", params)
     .then((r) => {
-      dispatch({ type: types.LOGIN_SUCCESS, payload: r.data });
+      dispatch({ type: types.LOGIN_SUCCESS, payload: r.data.token });
       return types.LOGIN_SUCCESS;
     })
     .catch((e) => {
@@ -29,4 +28,3 @@ export const login = (params) => (dispatch) => {
       return types.LOGIN_FALIURE;
     });
 };
-

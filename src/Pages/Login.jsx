@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
-import { login } from "../Redux/AuthReudcer/action";
-import { LOGIN_SUCCESS } from "../Redux/AuthReudcer/actionTypes";
+import { login } from "../Redux/AuthReducer/action";
+import { LOGIN_SUCCESS } from "../Redux/AuthReducer/actionTypes";
 import styles from "../Styled/login.module.css";
 // import Register from "./Register";
 
 const Login = () => {
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState("eve.holt@reqres.in");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -56,7 +56,7 @@ const Login = () => {
           className={styles.inputText}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          type="password"
+          type="text"
           placeholder="PASSWORD"
           required
         />

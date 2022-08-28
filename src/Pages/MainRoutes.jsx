@@ -74,9 +74,30 @@ const MainRoutes = () => {
         <Route path="/in/athletics" element={<STshirt />} />
         <Route path="/in/address" element={<AddressPage />} />
         <Route path="/in/mens_blazer" element={<MensBlazerCategory />} />
-        <Route path="/in/cardpayment" element={<CardPayment />} />
-        <Route path="/in/payment" element={<Payment />} />
-        <Route path="/in/ordersuccess" element={<OrderSuccess />} />
+        <Route
+          path="/in/cardpayment"
+          element={
+            <ReqAuth>
+              <CardPayment />
+            </ReqAuth>
+          }
+        />
+        <Route
+          path="/in/payment"
+          element={
+            <ReqAuth>
+              <Payment />
+            </ReqAuth>
+          }
+        />
+        <Route
+          path="/in/ordersuccess"
+          element={
+            <ReqAuth>
+              <OrderSuccess />
+            </ReqAuth>
+          }
+        />
       </Routes>
     </>
   );
