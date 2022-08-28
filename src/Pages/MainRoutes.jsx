@@ -1,4 +1,3 @@
-import { Payment } from "@mui/icons-material";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import AddToCartPage from "../Components/Cart/AddToCartPage";
@@ -16,6 +15,8 @@ import JeansPage from "./JeansPage";
 import Login from "./Login";
 
 import MenLandingPage from "./MenLandingPage";
+import OrderSuccess from "./OrderSuccess";
+import Payment from "./Payment";
 
 import PreLandingPage from "./PreLandingPage";
 
@@ -27,7 +28,7 @@ const MainRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<PreLandingPage />} />
+        <Route path="/" element={<PreLandingPage overflowY="hidden" />} />
         <Route
           path="/in"
           element={
@@ -68,23 +69,14 @@ const MainRoutes = () => {
           }
         />
         <Route path="/in/jeans" element={<JeansPage />} />
-        <Route
-          path="/in/description/:key/:id"
-          element={<Description />}
-        ></Route>
+        <Route path="/description/:key/:id" element={<Description />} />
         <Route path="/in/cart" element={<AddToCartPage />} />
         <Route path="/in/athletics" element={<STshirt />} />
         <Route path="/in/address" element={<AddressPage />} />
-        <Route path="/in/mens_blazer" element={<MensBlazerCategory />}></Route>
-        <Route
-          path="/in/cardpayment"
-          element={
-            <ReqAuth>
-              <CardPayment />
-            </ReqAuth>
-          }
-        />
-        <Route path="/payment" element={<Payment />} />
+        <Route path="/in/mens_blazer" element={<MensBlazerCategory />} />
+        <Route path="/in/cardpayment" element={<CardPayment />} />
+        <Route path="/in/payment" element={<Payment />} />
+        <Route path="/in/ordersuccess" element={<OrderSuccess />} />
       </Routes>
     </>
   );

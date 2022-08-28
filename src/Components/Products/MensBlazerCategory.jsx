@@ -2,10 +2,10 @@
 import ProductFooter from "./ProductFooter";
 import ItemPoster from "./ItemPoster";
 import MensBlazerSection from "./MensBlazerSection";
-import MensMidSection from "./MensMidSection";
 import MensProductItem from "./MensProductItem";
-import MensTopSection from "./MensTopSection";
 import { SSideMenuFilter } from "./SSideMenuFilter";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function MensBlazerCategory() {
   const topsectionurls = {
@@ -25,69 +25,77 @@ function MensBlazerCategory() {
     img2: "https://static.zara.net/photos///2022/I/M/2/p/0000/000/799/2/w/673/0000000799_15_1_1.jpg?ts=1657621553015",
   };
 
-  // const mensshorts = [
-  //       {
-  //             id: "21929283837443",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/3991/305/400/2/w/270/3991305400_1_1_1.jpg?ts=1657713772562",
-  //             title: "RELAXED FIT CARGO TROUSERS",
-  //             price: "4,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "1354326411234",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/6085/327/615/2/w/270/6085327615_1_1_1.jpg?ts=1657880307786",
-  //             title: "PRINTED SHIRT X RHUIGI",
-  //             price: "2,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "4109293737290139030",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/6688/304/406/2/w/270/6688304406_1_1_1.jpg?ts=1657885714871",
-  //             title: "GRAFFITI DENIM BERMUDA SHORTS (id)",
-  //             price: "2,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "41092937372901",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/6688/304/406/2/w/270/6688304406_2_3_1.jpg?ts=1657885713311",
-  //             title: "GRAFFITI DENIM BERMUDA SHORTS",
-  //             price: "2,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  // ];
-  // localStorage.setItem("menShorts", JSON.stringify(mensshorts));
+  const mensshorts = [
+    {
+      id: "21929283837443",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/3991/305/400/2/w/270/3991305400_1_1_1.jpg?ts=1657713772562",
+      title: "RELAXED FIT CARGO TROUSERS",
+      price: "4,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "1354326411234",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/6085/327/615/2/w/270/6085327615_1_1_1.jpg?ts=1657880307786",
+      title: "PRINTED SHIRT X RHUIGI",
+      price: "2,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "4109293737290139030",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/6688/304/406/2/w/270/6688304406_1_1_1.jpg?ts=1657885714871",
+      title: "GRAFFITI DENIM BERMUDA SHORTS (id)",
+      price: "2,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "41092937372901",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/6688/304/406/2/w/270/6688304406_2_3_1.jpg?ts=1657885713311",
+      title: "GRAFFITI DENIM BERMUDA SHORTS",
+      price: "2,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+  ];
+  localStorage.setItem("menShorts", JSON.stringify(mensshorts));
 
-  // const whiteblazerdata = [
-  //       {
-  //             id: "11128380930201393022",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/9621/802/715/2/w/270/9621802715_1_1_1.jpg?ts=1657891576023",
-  //             title: "SUIT BLAZER (id)",
-  //             price: "8,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "111283809302010000",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/9621/802/715/2/w/270/9621802715_2_2_1.jpg?ts=1657891581445",
-  //             title: "SUIT BLAZER (id)",
-  //             price: "8,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "11128380930201",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/9621/803/715/2/w/270/9621803715_1_1_1.jpg?ts=1657891986323",
-  //             title: "SUIT TROUSERS",
-  //             price: "4,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  //       {
-  //             id: "22228380930201",
-  //             image: "https://static.zara.net/photos///2022/I/0/2/p/9621/803/715/2/w/270/9621803715_2_3_1.jpg?ts=1657891986834",
-  //             title: "SUIT TROUSERS",
-  //             price: "4,990.00",
-  //             apikey: "MENS_BLAZERS",
-  //       },
-  // ];
-  // localStorage.setItem("WhiteBlazer", JSON.stringify(whiteblazerdata));
+  const whiteblazerdata = [
+    {
+      id: "11128380930201393022",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/9621/802/715/2/w/270/9621802715_1_1_1.jpg?ts=1657891576023",
+      title: "SUIT BLAZER (id)",
+      price: "8,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "111283809302010000",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/9621/802/715/2/w/270/9621802715_2_2_1.jpg?ts=1657891581445",
+      title: "SUIT BLAZER (id)",
+      price: "8,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "11128380930201",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/9621/803/715/2/w/270/9621803715_1_1_1.jpg?ts=1657891986323",
+      title: "SUIT TROUSERS",
+      price: "4,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+    {
+      id: "22228380930201",
+      image:
+        "https://static.zara.net/photos///2022/I/0/2/p/9621/803/715/2/w/270/9621803715_2_3_1.jpg?ts=1657891986834",
+      title: "SUIT TROUSERS",
+      price: "4,990.00",
+      apikey: "MENS_BLAZERS",
+    },
+  ];
+  localStorage.setItem("WhiteBlazer", JSON.stringify(whiteblazerdata));
   const info = JSON.parse(localStorage.getItem("WhiteBlazer"));
   const info1 = JSON.parse(localStorage.getItem("menShorts"));
 
@@ -95,10 +103,8 @@ function MensBlazerCategory() {
   const data2 = JSON.parse(localStorage.getItem("Mens4ItemsList"));
   return (
     <div>
-      {/* <SSideMenuFilter /> */}
+      <Navbar />
       <div>
-        <MensTopSection topsectionurls={topsectionurls} />
-        <MensMidSection />
         <MensProductItem data1={data1} data2={data2} />
         <MensBlazerSection />
         <ItemPoster

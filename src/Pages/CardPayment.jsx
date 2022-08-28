@@ -28,7 +28,7 @@ export default function CardPayment() {
   const purchase = () => {
     const { cardnumber, month, year, cardholder, cvv } = user;
     if (cardnumber && month && year && cardholder && cvv) {
-      navigate("/otp");
+      navigate("/in/ordersuccess");
     } else {
       alert("fill the all details");
     }

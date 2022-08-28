@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CardPayment from "./CardPayment";
 import styles from "./payment.module.css";
-import ProductFooter from "../Components/Products/ProductFooter";
+import ProductFooter from "../Components/Cart/ProductFooter";
 import { border } from "@chakra-ui/react";
 import { useSelector } from "react-redux";
 const Payment = () => {
@@ -13,12 +13,14 @@ const Payment = () => {
     if (!toggle) {
       alert("Plaese Choose Payment method");
     } else {
-      navigate("/cardpayment");
+      navigate("/in/cardpayment");
     }
   };
   const Visa = () => {
     setToggle(toggle ? false : true);
   };
+
+  console.log("Plaese Choose Payment");
 
   return (
     <div>

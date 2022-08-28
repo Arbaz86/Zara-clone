@@ -17,7 +17,7 @@ import SideBar from "./SideBar";
 const Navbar = () => {
   return (
     <>
-      <Box fontFamily={"Neue-Helvetica"} fontSize="16px">
+      <Box fontFamily={"Neue-Helvetica"} fontSize="16px" bg="#2222c" w="100vw">
         <Flex>
           <Flex w={"25%"} p={"4"} h={"15vh"} justifyContent={"space-between"}>
             <SideBar />

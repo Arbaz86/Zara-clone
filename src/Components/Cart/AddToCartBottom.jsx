@@ -42,7 +42,7 @@ const AddToCartBottom = () => {
   }, [cart]);
   const handleContinue = () => {
     dispatch(get_total_amount_func(total));
-    navigate("/address");
+    navigate("/in/address");
   };
   const moreProduct = useSelector((state) => state.cartReducer.moreProduct);
   return (

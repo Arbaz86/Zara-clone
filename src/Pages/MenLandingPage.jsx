@@ -22,9 +22,9 @@ const MenLandingPage = () => {
   };
   return (
     <Slider {...settings} style={{ height: "100vh" }}>
-      <div className="slide" style={{ margin: "0px" }}>
+      <div className="slide" style={{ padding: "0px" }}>
         <video
-          style={{ width: "100%", height: "auto", margin: "10px 0px" }}
+          style={{ width: "100%", height: "auto", margin: "0px" }}
           src={videoBg5}
           autoPlay
           loop
@@ -59,7 +59,7 @@ const MenLandingPage = () => {
           muted
         />
       </div>
-      <div className="slide">
+      <div className="slide" margin="0px">
         <video
           style={{ width: "100%", height: "auto", marginTop: "-10px" }}
           src={videoBg}

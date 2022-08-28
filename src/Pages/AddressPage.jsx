@@ -26,7 +26,7 @@ const AddressPage = () => {
     });
   };
   const Gotopayment = () => {
-    navigate("/payment");
+    navigate("/in/payment");
   };
   const handleSubmitAddress = () => {
     if (address.city !== "") {

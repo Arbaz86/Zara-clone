@@ -14,6 +14,8 @@ const Description = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const params = useParams();
+
+  console.log(params);
   const [data, setData] = useState({
     image: [],
     title: "",
@@ -21,10 +23,11 @@ const Description = () => {
     description: "",
     Quantity: 1,
   });
+  console.log("params", params);
+
   useEffect(() => {
     window.scrollTo(0, 0);
     if (params.key === "MENS_BLAZERS") {
-      // console.log(params);
       axios
         .get(
           `https://62dc219d57ac3c3f3c5691c4.mockapi.io/${params.key}/${params.id}`
@@ -53,7 +56,7 @@ const Description = () => {
   };
   // // local storage functionality pending
   const handleBucket = () => {
-    navigate("/cart");
+    navigate("/in/cart");
   };
   const settings = {
     dots: true,
