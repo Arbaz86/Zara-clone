@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import AddToCartPage from "../Components/Cart/AddToCartPage";
 import Description from "../Components/Cart/Description";
 import Footer from "../Components/Footer";
 // import Footer from "../Components/Footer";
@@ -10,7 +9,7 @@ import MensBlazerCategory from "../Components/Products/MensBlazerCategory";
 import ReqAuth from "../Components/ReqAuth";
 import AddressPage from "./AddressPage";
 import CardPayment from "./CardPayment";
-import Homepage from "./Homepage";
+import Cart from "./Cart";
 import JeansPage from "./JeansPage";
 import Login from "./Login";
 
@@ -69,8 +68,16 @@ const MainRoutes = () => {
           }
         />
         <Route path="/in/jeans" element={<JeansPage />} />
-        <Route path="/description/:key/:id" element={<Description />} />
-        <Route path="/in/cart" element={<AddToCartPage />} />
+        <Route
+          path="/description/:key/:id"
+          element={
+            <>
+              <Navbar />
+              <Description />
+            </>
+          }
+        />
+        <Route path="/in/cart" element={<Cart />} />
         <Route path="/in/athletics" element={<STshirt />} />
         <Route path="/in/address" element={<AddressPage />} />
         <Route path="/in/mens_blazer" element={<MensBlazerCategory />} />
