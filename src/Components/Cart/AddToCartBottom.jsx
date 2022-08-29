@@ -95,7 +95,7 @@ const AddToCartBottom = () => {
       </BigItemContainer>
       <ChekoutButtonDiv>
         <button>TOTAL : ₹ {total}</button>
-        <button onClick={handleContinue}>COUNTINUE</button>
+        <button onClick={handleContinue}>CONTINUE</button>
       </ChekoutButtonDiv>
     </div>
   );
